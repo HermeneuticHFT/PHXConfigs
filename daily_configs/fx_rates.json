@@ -1,0 +1,8 @@
+{
+      "reporting_currency": "USD",
+      "rates": {
+             "GBP:USD": 1.29,
+             "JPY:USD": 0.0088,
+             "USD:AUD": 0.74
+       }
+}

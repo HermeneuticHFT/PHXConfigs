@@ -1,0 +1,65 @@
+{
+  "hostname": "ip-172-31-39-144",
+  "datapath": "/tmp",
+  "appname": "phoenix",
+  "trading_date_generic_symbol": "ES_FUTURE_Index",
+  "backup_path" : "/tmp/backup",
+  "processes": [
+    {
+        "process": 1,     
+        "cpu": 1,      
+        "name": "binance-md.BinanceUSDM",           
+        "type": "market_data_adapter",
+        "exchange": "BinanceUSDM",
+        "single_core_process" : true,      
+        "backup" : true    
+    },
+    {
+        "process": 2,     
+        "cpu": 2,      
+        "name": "binance-om-sender",           
+        "type": "order_send_adapter",       
+        "single_core_process" : true,      
+        "backup" : true    
+    },
+    {
+        "process": 3,     
+        "cpu": 3,      
+        "name": "binance-om-responder",        
+        "type": "order_receive_adapter",    
+        "single_core_process" : true,      
+        "backup" : true    
+    },
+    {
+        "process": 4,
+        "cpu": 4,
+        "name": "live01",
+        "type": "trading_engine",
+        "single_core_process" : true
+    },
+    {
+        "process": 5,     
+        "cpu": 5,      
+        "name": "dev-global",                 
+        "type": "global_controller",      
+        "single_core_process" : true,      
+        "backup" : false    
+    },
+    {
+        "process": 6,     
+        "cpu": 6,      
+        "name": "dev-replicator",             
+        "type": "replicator",             
+        "single_core_process" : true,      
+        "backup" : false,     
+        "datapath_override": "/tmp/storage/trading"
+    },
+    {
+        "process": 7,
+        "cpu": 7,
+        "name": "controller",
+        "type": "local_controller",
+        "single_core_process" : false
+    }
+  ]
+}
