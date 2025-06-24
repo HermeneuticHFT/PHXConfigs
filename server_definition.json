@@ -1,0 +1,19 @@
+{
+  "servers": [
+    {
+      "server_id": 1,
+      "hostname": "ip-172-31-39-144",
+      "live_from": "20250518",
+      "local_port": 8100,
+      "replicator_port": 8999
+    },
+    {
+      "server_id": 2,
+      "hostname": "ip-172-31-39-144",
+      "live_from": "20250518",
+      "global_port": 8101,
+      "ui_port": 8102,
+      "gz_ui_port": 8103
+    }
+  ]
+}
