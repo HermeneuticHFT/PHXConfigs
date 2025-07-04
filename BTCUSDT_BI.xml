@@ -4,7 +4,7 @@
 <record comment="Quant comments" date="20250519" id="id" tag="theTag"/>
 </table>
 <table name="TradingSchedule">
-<record autoPilot="1" posLimit="1" timeZone="UTC" tradingEndTime="23:59:59" tradingStartTime="00:00:01" warmUpSeconds="100" zeroPaper="0"/>
+<record autoPilot="1" posLimit="1" timeZone="UTC" tradingEndTime="20:00:00" tradingStartTime="04:00:01" warmUpSeconds="100" zeroPaper="0"/>
 </table>
 <table name="Alphas">
 <record avgQtyMode="0" bbgSided="0" cap="90" class="TradeFlow" curve="0" decayTicks="0" decayTimeMS="2100000" denomSwitch="0" everyTick="0" flowWeight="1" highBound="0" highBoundRL="0" highCurve="0" instrument="BTCUSDT-linperp:Binance" lambda="0" lowBound="0" mandatory="0" maxTradesPerTick="2" maxTrdQty="0" minDenomCount="0" minDenomQty="0" minTrdQty="0" name="TradeFlowBTC" resetOnStopAtZero="0" resetTickMove="-50" slope="0" tanSwitch="0" timeNorm="0" trdCountMultiplier="0"/>
