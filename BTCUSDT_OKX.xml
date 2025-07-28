@@ -29,9 +29,7 @@
 </table>
 <table name="Baskets">
 <record basketId="basket_zero" instrument="BTCUSDT-linperp:Okex" maxTicks="255" minTicks="15" timeFrameMS="0" weight="0.88"/>
-<record basketId="basket_zero" instrument="BTCBUSD-linperp:Okex" maxTicks="80" minTicks="12" timeFrameMS="0" weight="0.71"/>
 <record basketId="basket_zero" instrument="ETHUSDT-linperp:Okex" maxTicks="590" minTicks="18" timeFrameMS="0" weight="0.46"/>
-<record basketId="basket_zero" instrument="ETHBUSD-linperp:Okex" maxTicks="400" minTicks="26" timeFrameMS="0" weight="0.4"/>
 <record basketId="basket_zero" instrument="SOLUSDT-linperp:Okex" maxTicks="125" minTicks="15" timeFrameMS="0" weight="0.16"/>
 <record basketId="basket_zero" instrument="ETCUSDT-linperp:Okex" maxTicks="60" minTicks="11" timeFrameMS="0" weight="0.27"/>
 <record basketId="basket_zero" instrument="ATOMUSDT-linperp:Okex" maxTicks="545" minTicks="22" timeFrameMS="0" weight="-0.06"/>
